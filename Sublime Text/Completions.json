@@ -1,0 +1,27 @@
+{
+	"scope" : "source.c++",
+	
+	"completions":
+	[
+		{
+			"trigger" : "rng",
+			"contents": "mt19937 rng(chrono::steady_clock::now().time_since_epoch().count())"
+		},
+		{
+			"trigger" : "sz",
+			"contents": "(int)$1.size()"
+		},
+		{
+			"trigger" : "mp",
+			"contents": "make_pair($1, $2)"
+		},
+		{
+			"trigger" : "pb",
+			"contents": "push_back($1)"
+		},
+		{
+			"trigger" : "all",
+			"contents": "$1.begin(), $2.end()"
+		}
+	]
+}
