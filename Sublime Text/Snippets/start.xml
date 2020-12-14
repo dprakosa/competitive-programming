@@ -15,4 +15,4 @@ int main() {
 	<tabTrigger>start</tabTrigger>
 	<scope>source.c++</scope>
 	<description>Default cpp template</description>
-</snippet>
+</snippet> 
