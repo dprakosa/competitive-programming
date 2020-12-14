@@ -4,10 +4,6 @@
 	"completions":
 	[
 		{
-			"trigger" : "rng",
-			"contents": "mt19937 rng(chrono::steady_clock::now().time_since_epoch().count())"
-		},
-		{
 			"trigger" : "sz",
 			"contents": "(int)$1.size()"
 		},
