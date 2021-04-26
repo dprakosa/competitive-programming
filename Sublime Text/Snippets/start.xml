@@ -6,8 +6,9 @@ using namespace std;
 $1
 
 int main() {
-	
-	ios_base::sync_with_stdio(false); cin.tie(nullptr);
+
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
 	
 	$0
 }
@@ -15,4 +16,4 @@ int main() {
 	<tabTrigger>start</tabTrigger>
 	<scope>source.c++</scope>
 	<description>Default cpp template</description>
-</snippet> 
+</snippet>
