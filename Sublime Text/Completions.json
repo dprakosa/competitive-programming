@@ -8,16 +8,16 @@
 			"contents": "(int)$1.size()"
 		},
 		{
-			"trigger" : "mp",
-			"contents": "make_pair($1, $2)"
-		},
-		{
 			"trigger" : "pb",
 			"contents": "push_back($1)"
 		},
 		{
+			"trigger" : "eb",
+			"contents": "emplace_back($1)"
+		},
+		{
 			"trigger" : "all",
-			"contents": "$1.begin(), $2.end()"
+			"contents": "$1.begin(), $1.end()"
 		}
 	]
 }
