@@ -1,0 +1,4 @@
+A File Icon
+Alignment
+Default File Type
+SideBarEnhancements
