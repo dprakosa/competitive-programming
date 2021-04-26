@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+template<typename T>
+void dbg_out(T t) { cerr << t << ")\n"; }
+
+template<typename T, typename... Args>
+void dbg_out(T t, Args... args) { cerr << t << ", "; dbg_out(args...); }
+
+#ifdef LOCAL
+#define dbg(...) cerr << '(' << #__VA_ARGS__ << ") = ("; dbg_out(__VA_ARGS__);
+#else
+#define dbg(...)
+#endif
+
+]]></content>
+	<tabTrigger>debug</tabTrigger>
+	<scope>source.c++</scope>
+	<description>Debugging template</description>
+</snippet>
