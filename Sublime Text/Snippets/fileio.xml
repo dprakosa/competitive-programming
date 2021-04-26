@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+freopen("$1.in", "r", stdin);
+freopen("$1.out", "w", stdout);$0
+]]></content>
+	<tabTrigger>fileio</tabTrigger>
+	<scope>source.c++</scope>
+	<description>File input and output</description>
+</snippet>
